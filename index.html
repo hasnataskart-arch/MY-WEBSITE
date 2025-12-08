@@ -1,104 +1,185 @@
-margin-top: 40px;
+padding: 15px 0;
+background-color: #6a4e42;
+color: white;
 font-size: 0.9em;
 }
 </style>
 </head>
 <body>
-<header>
-مرحباً بكم في مقهى الراحة
-</header>
-
+<header>Welcome to Our Coffee Shop</header>
 <section>
-<p>مقهى دافئ في قلب المدينة. نقدم أجود أنواع القهوة والمشروبات الساخنة والباردة بأجواء مريحة وهادئة.</p>
-<img src="https://cdn.pixabay.com/photo/2017/05/23/22/36/coffee-2333324_960_720.jpg" alt="فنجان قهوة">
-</section>
-
-<section class="menu">
-<h2>قائمة المشروبات</h2>
+<h2>Our Drink Menu</h2>
 <ul>
-<li>☕ إسبريسو - 1.50€</li>
-<li>☕ كابتشينو - 2.20€</li>
-<li>☕ لاتيه - 2.50€</li>
-<li>🍵 شاي أخضر - 1.80€</li>
-<li>🥤 عصير برتقال طبيعي - 2.00€</li>
-</ul>
-<img src="https://cdn.pixabay.com/photo/2015/06/24/16/36/coffee-820270_960_720.jpg" alt="قهوة ساخنة">
-</section>
-
-<section class="contact">
-<h2>اتصل بنا</h2>
-<p>عندك استفسار أو بغيت تحجز؟ تواصل معنا عبر:</p>
-<ul style="list-style: none; padding: 0; font-size: 1.1em;">
-<li>📞 الهاتف: +34 612 345 678</li>
-<li>📧 البريد الإلكتروني: info@maqhacafe.com</li>
-<li>📍 العنوان: Calle de la Paz 12, Madrid</li>
+<li><span>Espresso</span> <span class="price">€2.50</span></li>
+<li><span>Cappuccino</span> <span class="price">€3.00</span></li>
+<li><span>Latte</span> <span class="price">€3.50</span></li>
+<li><span>Americano</span> <span class="price">€2.80</span></li>
+<li><span>Mocha</span> <span class="price">€3.70</span></li>
+<li><span>Tea</span> <span class="price">€2.00</span></li>
+<li><span>Hot Chocolate</span> <span class="price">€3.20</span></li>
 </ul>
 </section>
-
-<footer>
-&copy; 2025 مقهى الراحة. جميع الحقوق محفوظة.
-</footer>
+<footer>©️ 2025 Coffee Shop. All rights reserved.</footer>
 </body>
 </html>
 ```
 ```html
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>مقهى الراحة</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Coffee Menu</title>
 <style>
 body {
 font-family: 'Arial', sans-serif;
-background-color: #f9f5f0;
-color: #4a3c31;
+background-color: #f5f2ef;
+color: #4b3a2e;
 margin: 0;
 padding: 0;
 text-align: center;
 }
 header {
-background-color: #6b4f3b;
-padding: 20px 0;
+background-color: #6a4e42;
 color: white;
-font-size: 2em;
+padding: 20px 0;
+font-size: 2.2em;
+font-weight: bold;
 }
 section {
+max-width: 600px;
 margin: 30px auto;
-max-width: 800px;
-padding: 0 20px;
-}
-img {
-width: 100%;
-max-width: 400px;
-border-radius: 15px;
-margin-top: 20px;
-}
-.menu {
-background-color: #fff;
+background: white;
+border-radius: 12px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
 padding: 20px;
-border-radius: 10px;
 }
-.menu h2 {
-color: #6b4f3b;
+h2 {
+border-bottom: 2px solid #6a4e42;
+padding-bottom: 10px;
+margin-bottom: 20px;
 }
-.menu ul {
+ul {
 list-style: none;
 padding: 0;
+margin: 0;
+}
+li {
+display: flex;
+justify-content: space-between;
+padding: 12px 0;
+border-bottom: 1px solid #eee;
 font-size: 1.1em;
 }
-.menu li {
-margin: 10px 0;
+li:last-child {
+border-bottom: none;
 }
-.contact {
-background-color: #f3ece6;
-padding: 30px;
-border-radius: 10px;
-margin-top: 40px;
+.price {
+color: #a55733;
+font-weight: bold;
 }
 footer {
-background-color: #6b4f3b;
+margin-top: 40px;
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Coffee & Snacks Menu</title>
+<style>
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f5f2ef;
+color: #4b3a2e;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+header {
+background-color: #6a4e42;
 color: white;
-padding: 10px 0;
+padding: 20px 0;
+font-size: 2.2em;
+font-weight: bold;
+}
+section {
+max-width: 700px;
+margin: 30px auto;
+background: white;
+border-radius: 12px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+padding: 20px;
+}
+h2 {
+border-bottom: 2px solid #6a4e42;
+padding-bottom: 10px;
+margin-bottom: 20px;
+}
+ul {
+list-style: none;
+padding: 0;
+margin: 0 0 30px 0;
+}
+li {
+display: flex;
+justify-content: space-between;
+padding: 12px 0;
+border-bottom: 1px solid #eee;
+font-size: 1.1em;
+}
+li:last-child {
+border-bottom: none;
+}
+.price {
+color: #a55733;
+font-weight: bold;
+}
+footer {
+
+<li><span>Cheeseburger</span> <span class="price">€5.00</span></li>
+<li><span>Veggie Burger</span> <span class="price">€5.00</span></li>
+</ul>
+</section>
+<footer>©️ 2025 Coffee Shop. All rights reserved.</footer>
+</body>
+</html>
+```
+margin-top: 40px;
+padding: 15px 0;
+background-color: #6a4e42;
+color: white;
+font-size: 0.9em;
+}
+</style>
+</head>
+<body>
+<header>Welcome to Our Coffee Shop</header>
+<section>
+<h2>Hot Drinks</h2>
+<ul>
+<li><span>Espresso</span> <span class="price">€2.50</span></li>
+<li><span>Cappuccino</span> <span class="price">€3.00</span></li>
+<li><span>Latte</span> <span class="price">€3.50</span></li>
+<li><span>Americano</span> <span class="price">€2.80</span></li>
+<li><span>Mocha</span> <span class="price">€3.70</span></li>
+<li><span>Tea</span> <span class="price">€2.00</span></li>
+<li><span>Hot Chocolate</span> <span class="price">€3.20</span></li>
+</ul>
+<h2>Sandwiches</h2>
+<ul>
+<li><span>Chicken Sandwich</span> <span class="price">€5.00</span></li>
+<li><span>Ham & Cheese Sandwich</span> <span class="price">€4.50</span></li>
+<li><span>Vegetarian Sandwich</span> <span class="price">€4.00</span></li>
+<li><span>Club Sandwich</span> <span class="price">€5.50</span></li>
+</ul>
+<h2>Fast Food</h2>
+<ul>
+<li><span>French Fries</span> <span class="price">€3.00</span></li>
+<li><span>Chicken Nuggets (6 pcs)</span> <span class="price">€4.50</span></li>
+
+
 
 
 
